@@ -13,10 +13,9 @@ public class BootWelcomeController {
 	@Autowired
 	private IStudentRepository repository;
 	@RequestMapping("/welcome")
-	@ResponseBody
 	public String welcome(){
 		System.out.println(repository.findByName("Hari"));
-		return "Success";
+		return "index.jsp";
 	}
 	
 	@RequestMapping("/delete")
