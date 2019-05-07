@@ -6,7 +6,7 @@
 	<artifactId>spring-boot</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
-	<javahome>Java Home </javahome>
+
 	<name>spring-boot</name>
 	<url>http://maven.apache.org</url>
 
